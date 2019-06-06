@@ -27,10 +27,10 @@ Start with the `Artist`/`Song`/`Genre` domain.
 
 **The `Artist` model:**
 
-- The `Artist` class needs a class variable `@@all` that begins as an empty array
-- The `Artist` class needs a class method `.all` that lists each artist in the
-  class variable
-- An artist is initialized with a name and is saved in the `@@all` array.
+<!-- - The `Artist` class needs a class variable `@@all` that begins as an empty array -->
+<!-- - The `Artist` class needs a class method `.all` that lists each artist in the
+  class variable -->
+<!-- - An artist is initialized with a name and is saved in the `@@all` array. -->
 - The `Artist` class needs an instance method, `#new_song`, that takes in an
   argument of a name and genre creates a new song. That song should know that it
   belongs to the artist.
@@ -63,10 +63,10 @@ Now let's move on to our `Doctor`/`Appointment`/`Patient` domain model.
 
 **The `Doctor` model:**
 
-- The `Doctor` class needs a class variable `@@all` that begins as an empty array.
+<!-- - The `Doctor` class needs a class variable `@@all` that begins as an empty array.
 - The `Doctor` class needs a class method `.all` that lists each doctor in the
   class variable.
-- A doctor should be initialized with a name and be saved in the `@@all` array.
+- A doctor should be initialized with a name and be saved in the `@@all` array. -->
 - The `Doctor` class needs an instance method, `#new_appointment`, that takes in a
   an instance of the `Patient` class and a date, and creates a new `Appointment`. That
   `Appointment` should know that it belongs to the doctor
